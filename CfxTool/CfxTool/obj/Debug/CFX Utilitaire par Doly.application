@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <assemblyIdentity name="CFX Utilitaire par Doly.application" version="0.1.0.3" publicKeyToken="0000000000000000" language="fr" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <assemblyIdentity name="CFX Utilitaire par Doly.application" version="0.1.0.12" publicKeyToken="0000000000000000" language="fr" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="Codoly" co.v1:suiteName="Codoly" asmv2:product="CfxTool" asmv2:supportUrl="https://codoly.fr/" co.v1:errorReportUrl="https://codoly.fr/" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="CFX Utilitaire par Doly.exe.manifest" size="4012">
-      <assemblyIdentity name="CFX Utilitaire par Doly.exe" version="0.1.0.3" publicKeyToken="0000000000000000" language="fr" processorArchitecture="msil" type="win32" />
+    <dependentAssembly dependencyType="install" codebase="CFX Utilitaire par Doly.exe.manifest" size="4014">
+      <assemblyIdentity name="CFX Utilitaire par Doly.exe" version="0.1.0.12" publicKeyToken="0000000000000000" language="fr" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>C/y6HbdttuKZm0BhUl4z7Nj6mSODVtnh6T9YCy5seWU=</dsig:DigestValue>
+        <dsig:DigestValue>TxWEwcX0eSdXZvh9s5bRuzQkeqypOPfGjo3G3xAuz3w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

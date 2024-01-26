@@ -22,5 +22,41 @@ namespace CfxTool.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\lepet\\AppData\\Local\\RedM")]
+        public string DefaultRedmPath {
+            get {
+                return ((string)(this["DefaultRedmPath"]));
+            }
+            set {
+                this["DefaultRedmPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\lepet\\AppData\\Local\\FiveM")]
+        public string DefaultFivemPath {
+            get {
+                return ((string)(this["DefaultFivemPath"]));
+            }
+            set {
+                this["DefaultFivemPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool IsFirstRun {
+            get {
+                return ((bool)(this["IsFirstRun"]));
+            }
+            set {
+                this["IsFirstRun"] = value;
+            }
+        }
     }
 }
