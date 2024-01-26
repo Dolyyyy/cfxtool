@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CFX Utilitaire par Doly.exe" version="0.1.0.5" publicKeyToken="3f934a156b28e88b" language="fr" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="cfx.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CFX Utilitaire par Doly" version="1.2.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CFX Utilitaire par Doly.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CFX Utilitaire par Doly.exe" size="91040">
+      <assemblyIdentity name="CFX Utilitaire par Doly" version="1.2.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2dsvr8FFHqknyxWWin9rMoIPfeGKyPL93ZQ6T+gjf6A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CFX Utilitaire par Doly.exe.config" size="1112">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EgN+tZ4bTJgwZgkAhYu/fkV1iB8wDPH84n2kvuYleCk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cfx.ico" size="18407">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J8sna3fYVqiC4RIx5GH2PS55FT/5kIbJACOr+Mpo8Cc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DOLY\lepet" issuerKeyHash="adcec46b15901ba5c141d9c242f899334697544f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JHWCsO/dGTSYQjgqagZ6B6AYEFNMJlyPfvYH7tTc5jw=</DigestValue></Reference></SignedInfo><SignatureValue>KE6rTMzKnkTYyIVYRdR730vtxqWzIgOhkBf9HeZ6hOsZcNzIBoB5JUepSWbODLCl7nhMiELHsj0S0xAjv4w4cuheSGsoM697SNPN7Q+DDfmz7CxEyR151s6lp03db/YPOVPFjfxyXNJ6o7hSNB+32iKapvb7g0pNGjDuH9Onvn8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3B9R6r58GA0ywOliq5RA7GPGNh45nMsuegnhoJTopv2590UvxuIEdf+uRsnH13tidLiZTFQ3gR7TR6ptP1LpoMtco0TlwZf1q+bmIF1Eb6zxPWei27KerZm/q2wMz3FHINbR3Es3jB+A9WkSu8d+KZl1/WEv1B4YFRUNhX8tAGE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3ce6dcd4ee07f67e8f5c264c531018a0077a066a2a3842983419ddefb0827524" Description="" Url=""><as:assemblyIdentity name="CFX Utilitaire par Doly.exe" version="0.1.0.5" publicKeyToken="3f934a156b28e88b" language="fr" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DOLY\lepet</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NwKehSnG4r195jXn3M2ZmynIvJuZFpdc8VTes4rRZKo=</DigestValue></Reference></SignedInfo><SignatureValue>MeE/V66PH0v8/RekjKQshVfm+WXzV1qf5gah7Rv7nnxi8Y7uYXr9oEJfwKbu4WHIsCnausbqspZnw9Kr+rkiE9Ie1FeBqTklcFZYbB8p9H4G+q0z81beX4VerliqBEfzbzZMezGpm8Ug9dbr8Y23N3R56+YRO9qBL1M05V9OsFU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3B9R6r58GA0ywOliq5RA7GPGNh45nMsuegnhoJTopv2590UvxuIEdf+uRsnH13tidLiZTFQ3gR7TR6ptP1LpoMtco0TlwZf1q+bmIF1Eb6zxPWei27KerZm/q2wMz3FHINbR3Es3jB+A9WkSu8d+KZl1/WEv1B4YFRUNhX8tAGE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQOEkEqYXAMqdDwm5IugEWiDANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQARABPAEwAWQBcAGwAZQBwAGUAdDAeFw0yNDAxMjMyMDMyMDBaFw0yNTAxMjMwMjMyMDBaMB8xHTAbBgNVBAMeFABEAE8ATABZAFwAbABlAHAAZQB0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcH1HqvnwYDTLA6WKrlEDsY8Y2Hjmcyy56CeGglOim/bn3RS/G4gR1/65GycfXe2J0uJlMVDeBHtNHqm0/Uumgy1yjROXBl/Wr5uYgXURvrPE9Z6Lbsp6tmb+rbAzPcUcg1tHcSzeMH4D1aRK7x34pmXX9YS/UHhgVFQ2Ffy0AYQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAE9JqE9ss4Mho2jzhxojxVJKWRFOddvqbvNCsKk5TaWCnCmV8zUU5FRAsZhzP9pOmA4zveZvmUNZaKLW1jqtqkAWgx4khaWoyk9HL8PQvDI9LiP1qILAAXL+4d0KehoeeHMCnmIaK2otIrBPLfWBgJ0is9W2Nuf8F859WTVnvyYo</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
